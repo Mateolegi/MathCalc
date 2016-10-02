@@ -1,0 +1,12 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.mateolegi.mathcalc" version="1.0.0">
+  <name>Math Calc</name>
+  <description>Math Calc</description>
+  <author href="https://github.com/Mateolegi" email="mateolegi@gmail.com">Mateo Leal</author>
+  <content src="index.html"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <icon src="favicon.png"/>
+  <access origin="*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+</widget>
